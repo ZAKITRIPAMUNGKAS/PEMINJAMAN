@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.ruangan-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  transition: transform 0.3s;
+}
+
+.ruangan-card:hover {
+  transform: translateY(-5px);
+}
+
+.ruangan-card h3 {
+  color: #007bff;
+}
+
+.ruangan-card p {
+  color: #6c757d;
+}
+
+.ruangan-card button {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.ruangan-card button:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.ruangan-dipinjam-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ruangan-dipinjam-item {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffc107;
+  border: 1px solid #ffc107;
+  border-radius: 5px;
+}
+
+.ruangan-dipinjam-item h3 {
+  color: #343a40;
+}
+
+.ruangan-dipinjam-item p {
+  color: #343a40;
+}
+
+.daftar-ruangan-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.daftar-ruangan-item {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #17a2b8;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+}
+
+.daftar-ruangan-item h3 {
+  color: #ffffff;
+}
+
+.daftar-ruangan-item p {
+  color: #ffffff;
+}
