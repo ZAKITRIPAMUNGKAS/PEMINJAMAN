@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peminjaman Ruangan</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Peminjaman Ruangan</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-utama">Menu Utama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ruangan-tersedia">Ruangan Tersedia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ruangan-dipinjam">Ruangan Dipinjam</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#daftar-ruangan">Daftar Ruangan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5" id="menu-utama">
+      <h2>Menu Utama</h2>
+      <p>
+        Selamat datang di aplikasi peminjaman ruangan! Silakan temukan ruangan
+        yang sesuai dengan kebutuhan Anda dan mulai proses peminjaman.
+      </p>
+    </div>
+
+    <div class="container mt-5" id="ruangan-tersedia">
+      <h2>Ruangan Tersedia</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="ruangan-card">
+            <h3>Ruangan 1</h3>
+            <p>
+              Ruangan ini dilengkapi dengan peralatan presentasi modern dan
+              cocok untuk rapat atau seminar.
+            </p>
+            <img
+              src="https://via.placeholder.com/300"
+              class="img-fluid"
+              alt="Ruangan 1"
+            />
+            <button class="btn btn-primary mt-3">Pinjam Ruangan</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ruangan-card">
+            <h3>Ruangan 2</h3>
+            <p>
+              Ruangan ini nyaman dan memiliki pemandangan yang indah, cocok
+              untuk diskusi atau pertemuan santai.
+            </p>
+            <img
+              src="https://via.placeholder.com/300"
+              class="img-fluid"
+              alt="Ruangan 2"
+            />
+            <button class="btn btn-primary mt-3">Pinjam Ruangan</button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ruangan-card">
+            <h3>Ruangan 3</h3>
+            <p>
+              Ruangan ini memiliki fasilitas dapur dan area makan, ideal untuk
+              acara pesta atau pertemuan makan siang.
+            </p>
+            <img
+              src="https://via.placeholder.com/300"
+              class="img-fluid"
+              alt="Ruangan 3"
+            />
+            <button class="btn btn-primary mt-3">Pinjam Ruangan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="ruangan-dipinjam">
+      <h2>Ruangan Dipinjam</h2>
+      <div class="ruangan-dipinjam-content">
+        <div class="ruangan-dipinjam-item">
+          <h3>Ruangan 4</h3>
+          <p>Ruangan ini sedang dipinjam oleh Departemen X untuk acara Y.</p>
+        </div>
+        <div class="ruangan-dipinjam-item">
+          <h3>Ruangan 5</h3>
+          <p>Ruangan ini sedang dipinjam oleh Tim Z untuk kegiatan W.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="daftar-ruangan">
+      <h2>Daftar Ruangan</h2>
+      <div class="daftar-ruangan-content">
+        <div class="daftar-ruangan-item">
+          <h3>Ruangan 1</h3>
+          <p>
+            Ruangan ini memiliki kapasitas untuk 50 orang dan dilengkapi dengan
+            sistem audio yang canggih.
+          </p>
+        </div>
+        <div class="daftar-ruangan-item">
+          <h3>Ruangan 2</h3>
+          <p>
+            Ruangan ini nyaman dengan fasilitas pendingin udara dan cocok untuk
+            rapat atau presentasi.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5" id="kontak">
+      <h2>Kontak</h2>
+      <p>
+        Jika Anda memiliki pertanyaan atau ingin melakukan peminjaman, silakan
+        hubungi kami di:
+      </p>
+      <ul>
+        <li>Email: info@peminjamanruangan.com</li>
+        <li>Telepon: (123) 456-7890</li>
+      </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
